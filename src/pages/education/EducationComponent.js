@@ -29,7 +29,7 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
- Below are some of my major certifications.
+               Below are some of my major certifications.
               </p>
             </div>
           </div>

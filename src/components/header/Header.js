@@ -134,7 +134,7 @@ function Header(props) {
               </NavLink>
             </li>
             <li>
-              <a
+              {/* <a
                 className="cr"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -144,7 +144,7 @@ function Header(props) {
                 style={{ borderRadius: 5, color: theme.text }}
               >
                 Journalify
-              </a>
+              </a> */}
             </li>
             <button {...styles} onClick={changeTheme}>
               {icon}
