@@ -10,12 +10,12 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello.",
-  title2: "Hrishi",
-  logo_name: "Muhammad",
-  nickname: "hrishi1999 / picleric",
+  // title2: "Hrishi",
+  logo_name: "Muhammad Mudassir",
+  // nickname: "hrishi1999 / picleric",
   full_name: "Muhammad Mudassir ",
   subTitle:
-    "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
+    "Machine Learning Enthusiast,Full Stack Developer. I’m a tech enthusiast who loves exploring new ideas and figuring out how to turn them into real, impactful solutions. I’m always looking for opportunities to grow, contribute to meaningful projects, and make a positive difference through technology..",
   resumeLink:
     "https://drive.google.com/file/d/1UtLdXQpideM-zLXfTlHHBBpTeJI3kiDd/view?usp=sharing",
   mail: "mauhammadmudassir981@gmail.com",
