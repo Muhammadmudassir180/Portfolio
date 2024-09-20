@@ -63,7 +63,7 @@ function Header(props) {
     );
 
   return (
-    <Fade top duration={1000} distance="20px">
+    <Fade top duration={0} distance="20px">
       <div>
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
@@ -97,13 +97,13 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Education and Certifications
+                Education 
               </NavLink>
             </li>
             <li>
               <NavLink
                 className="xp"
-                to="/experience"
+                to="experience"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
@@ -130,7 +130,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contact and Resume
+                Contact 
               </NavLink>
             </li>
             <li>
