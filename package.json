@@ -1,12 +1,12 @@
 {
   "private": true,
-  "name": "opportfolio",
+  "name": "portfolio",
   "version": "1.2.0",
   "homepage": "http://muhammadmudassir180.github.io/Portfolio/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test"
