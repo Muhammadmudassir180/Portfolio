@@ -5,7 +5,7 @@
   "homepage": "https://muhammadmudassir180.github.io/Portfolio/",
   "scripts": {
     "build": "react-scripts build",
-    "predeploy": "npm run build",
+    "predeploy": "rm -rf node_modules/.cache/gh-pages && npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",

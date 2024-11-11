@@ -4,7 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
-import FeelingProud from "./FeelingProud";
+import FeelingProud from "./FeelingProud"; //comment this for profile picture
 import { style } from "glamor";
 
 export default function Greeting(props) {
@@ -49,7 +49,9 @@ export default function Greeting(props) {
               </div>
             </div>
           </div>
+
           <div className="greeting-image-div">
+            {/* {you can put your profile photo here to show in homepage} */}
             <FeelingProud theme={theme} />
           </div>
         </div>

@@ -323,21 +323,21 @@ const degrees = {
     {
       title: "National University of Science and Technology",
       subtitle: "Masters in Computer Science",
-      logo_path: "dal.png",
-      alt_name: "DAL",
+      logo_path: "nust.png",
+      alt_name: "NUST",
       duration: "2024 - ongoing",
       descriptions: [
         "⚡ Studied Advanced Software Development Concepts, Data Management & Warehousing",
         "⚡ Learn Advanced Topics in Cloud Computing, Cloud Architecture along with Serverless Computing",
         "⚡ Worked on projects on courses like Mobile Computing and Web Technologies.",
       ],
-      website_link: "https://www.dal.ca/",
+      website_link: "https://www.nust.edu.pk/",
     },
     {
       title: "Institute of Space and Technology",
       subtitle: "Bachlors in Electrical Engineering",
-      logo_path: "sal.png",
-      alt_name: "SETI",
+      logo_path: "ist.jpeg",
+      alt_name: "IST",
       duration: "2019 - 2023",
       descriptions: [
         "⚡ I have studied core subjects like Computer Programming, Control Systems, Networking, Signals and System ,DSP, etc.",
@@ -498,20 +498,18 @@ const experience = {
           title: "Computer Vision Developer",
           company: "National AeroSpace Science and Technology Park",
           company_url: "https://www.nastp.gov.pk",
-          logo_path: "cra.png",
+          logo_path: "nastp.jpeg",
           duration: "Oct 2023 - Ongoing",
           location: "Rawalpindi, Pakistan",
-          description:
-          [
-              "⚡  Developed 360 degree surveillance system for detection and tracking system",
-              "⚡  Delivered and deployed Computer Vision models.",
-              "⚡  Improved distributed cloud GPU training approaches for deep learning models",
-              "⚡  Utilizing the Deep learning Trackers to obtain the specific Task",
-              "⚡  Integrating the computer vision models on UAVs.",
-              "⚡  Made 360 Panaroma for detection.",
-              
-           
-          ],color: "#f10000",
+          description: [
+            "⚡  Developed 360 degree surveillance system for detection and tracking system",
+            "⚡  Delivered and deployed Computer Vision models.",
+            "⚡  Improved distributed cloud GPU training approaches for deep learning models",
+            "⚡  Utilizing the Deep learning Trackers to obtain the specific Task",
+            "⚡  Integrating the computer vision models on UAVs.",
+            "⚡  Made 360 Panaroma for detection.",
+          ],
+          color: "#f10000",
         },
         // {
         //   title: "Full Stack Developer",
@@ -533,7 +531,7 @@ const experience = {
           title: "Electrical Engineering",
           company: "Special Communication Organization",
           company_url: "https://sco.gov.pk/",
-          logo_path: "google_logo.png",
+          logo_path: "sco.png",
           duration: "May 2022 - Aug 2012",
           location: "Rawalpindi, Pakistan",
           description:
@@ -573,7 +571,6 @@ const experience = {
         // },
       ],
     },
-    
   ],
 };
 
@@ -594,11 +591,11 @@ const contactPageData = {
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
-    link: "https://medium.com/@hrishipatel99",
-    avatar_image_path: "blogs_image.svg",
+    // title: "Blogs",
+    // subtitle:
+    // "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
+    // link: "https://medium.com/@hrishipatel99",
+    // avatar_image_path: "blogs_image.svg",
   },
 };
 
@@ -607,7 +604,8 @@ const projects = {
     {
       name: " Data Manager Backend Application",
       // url: "https://github.com/Hrishi1999/CineScope",
-      description: " I designed and developed a comprehensive Backend Data Manager, utilizing MongoDB as the primary database to store data. This included creating fully functional routes for updating Data, implementing JWT and Express Authentication for secure login and routing, and developing Error Handling Middleware to ensure smooth operation. Additionally, I used Bcrypt to encrypt passwords, enhancing security measures within the system.",
+      description:
+        " I designed and developed a comprehensive Backend Data Manager, utilizing MongoDB as the primary database to store data. This included creating fully functional routes for updating Data, implementing JWT and Express Authentication for secure login and routing, and developing Error Handling Middleware to ensure smooth operation. Additionally, I used Bcrypt to encrypt passwords, enhancing security measures within the system.",
       languages: [
         // {
         //   name: "React.js",
@@ -635,13 +633,13 @@ const projects = {
     {
       name: "Object Detection and Tracking",
       // url: "https://github.com/Hrishi1999/CineScope",
-      description: " Developed surveillance system , utilizing IR cameras to detect and track threats. I optimized Machine Learning algorithms for precise detection and tracking, ensuring system accuracy. Additionally, I integrated the system with a Pan-Tilt Unit, enhancing its control and flexibility.",
+      description:
+        " Developed surveillance system , utilizing IR cameras to detect and track threats. I optimized Machine Learning algorithms for precise detection and tracking, ensuring system accuracy. Additionally, I integrated the system with a Pan-Tilt Unit, enhancing its control and flexibility.",
       languages: [
         {
           name: "python",
           iconifyClass: "logos-python",
         },
-
       ],
     },
     // {
