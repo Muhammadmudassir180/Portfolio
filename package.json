@@ -2,7 +2,7 @@
   "private": true,
   "name": "portfolio",
   "version": "1.2.0",
-  "homepage": "muhammadmudassir180.netlify.app",
+  "homepage": "https://muhammadmudassir180.github.io/Portfolio/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
