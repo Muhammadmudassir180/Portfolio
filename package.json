@@ -2,7 +2,7 @@
   "private": true,
   "name": "portfolio",
   "version": "1.2.0",
-  "homepage": "https://muhammadmudassir180.github.io/Portfolio/",
+  "homepage": ".",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "rm -rf node_modules/.cache/gh-pages && npm run build",
