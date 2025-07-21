@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Machine Learning Enthusiast,Full Stack Developer. I’m a tech enthusiast who loves exploring new ideas and figuring out how to turn them into real, impactful solutions. I’m always looking for opportunities to grow, contribute to meaningful projects, and make a positive difference through technology..",
   resumeLink:
-    "https://drive.google.com/file/d/1UtLdXQpideM-zLXfTlHHBBpTeJI3kiDd/view?usp=sharing",
+    "https://drive.google.com/file/d/1d9NV3vjpi47TG6sO00b6zByFtCTP5KaH/view?usp=sharing",
   mail: "mauhammadmudassir981@gmail.com",
 };
 
@@ -495,19 +495,21 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Computer Vision Developer",
+          title: "Software and Machine Learning Engineer",
           company: "National AeroSpace Science and Technology Park",
           company_url: "https://www.nastp.gov.pk",
           logo_path: "nastp.jpeg",
           duration: "Oct 2023 - Ongoing",
           location: "Rawalpindi, Pakistan",
           description: [
-            "⚡  Developed 360 degree surveillance system for detection and tracking system",
-            "⚡  Delivered and deployed Computer Vision models.",
-            "⚡  Improved distributed cloud GPU training approaches for deep learning models",
-            "⚡  Utilizing the Deep learning Trackers to obtain the specific Task",
-            "⚡  Integrating the computer vision models on UAVs.",
-            "⚡  Made 360 Panaroma for detection.",
+            "⚡  Developed a diverse datasets for training autonomous UAV models, ensuring high-quality data for ML pipelines.\n",
+            "⚡  Engineered computer vision models for ADAS and UAV applications, leveraging deep learning techniques to improve object detection accuracy by 15%",
+            "⚡  Designed and implemented a 360-degree surveillance system utilizing ML-based object detection and multi-object tracking for enhanced situational awareness.",
+            "⚡  Optimized model training by applying transfer learning with pre-trained YOLO models, reducing training time by 20% and boosting detection accuracy by 10%.",
+            "⚡  Built a machine learning model to classify high-energy gamma particles in a ground-based atmospheric Cherenkov gamma telescope",
+            "⚡  Built and Engineered a custom dataset from scratch and applied advanced preprocessing for a hybrid semantic search engine integrating FAISS and MongoDB to retrieve contextually relevant passages from a custom-built corpus for large language model (LLM) prompting.",
+            "⚡  Fine-tuned an LLM (Mistral-7B) to generate context-aware, grounded answers based on retrieved documents using embeddings and engineered prompts",
+            "⚡  Integrated ML models with backend services using REST APIs, leveraging Node.js and Express.js for seamless deployment and real-time inference",
           ],
           color: "#f10000",
         },
@@ -615,31 +617,59 @@ const projects = {
         //   name: "TypeScript",
         //   iconifyClass: "devicon-typescript",
         // },
-        {
-          name: "Node.js",
-          iconifyClass: "devicon-nodejs",
-        },
-        {
-          name: "Express.js",
-          iconifyClass: "devicon-express",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb",
-        },
+        // {
+        //   name: "Node.js",
+        //   iconifyClass: "devicon-nodejs",
+        // },
+        // {
+        //   name: "Express.js",
+        //   iconifyClass: "devicon-express",
+        // },
+        // {
+        //   name: "MongoDB",
+        //   iconifyClass: "logos-mongodb",
+        // },
       ],
     },
 
     {
-      name: "Object Detection and Tracking",
+      name: "Object Detection and Tracking in IR Imagery",
       // url: "https://github.com/Hrishi1999/CineScope",
       description:
-        " Developed surveillance system , utilizing IR cameras to detect and track threats. I optimized Machine Learning algorithms for precise detection and tracking, ensuring system accuracy. Additionally, I integrated the system with a Pan-Tilt Unit, enhancing its control and flexibility.",
+        " The development of a border surveillance system , utilizing IR cameras to detect and track threats. Optimized deep learning algorithms using YOLOv8 and YOLOv10 models \n for precise detection and Deep Learning Trackers for tracking, improving system accuracy by 25%.. Additionally, I integrated the system with a Pan-Tilt Unit, enhancing its control and flexibility.",
       languages: [
         {
-          name: "python",
-          iconifyClass: "logos-python",
+          // name: "python",
+          // iconifyClass: "logos-python",
         },
+      ],
+    },
+    {
+      name: " LLM-Powered Hybrid RAG System for Islamic Knowledge Retrieval ",
+      // url: "https://github.com/Hrishi1999/CineScope",
+      description:
+        " Built an end-to-end NLP system that integrates semantic search with LLMs to generate context-aware responses grounded in authentic sources. Designed custom datasets from scratch, performed embedding optimization, and fine-tuned transformer models for improved relevance and factual accuracy. Leveraged tools like FAISS and MongoDB to bridge structured and unstructured retrieval. Demonstrates strong foundations in ML, NLP pipelines, and practical deployment of LLMs.",
+      languages: [
+        // {
+        //   name: "React.js",
+        //   iconifyClass: "logos-react",
+        // },
+        // {
+        //   name: "TypeScript",
+        //   iconifyClass: "devicon-typescript",
+        // },
+        // {
+        //   name: "Node.js",
+        //   iconifyClass: "devicon-nodejs",
+        // },
+        // {
+        //   name: "Express.js",
+        //   iconifyClass: "devicon-express",
+        // },
+        // {
+        //   name: "MongoDB",
+        //   iconifyClass: "logos-mongodb",
+        // },
       ],
     },
     // {
